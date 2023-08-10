@@ -24,4 +24,3 @@ def format_changelog_entry(fields):
 description = sys.stdin.read()
 fields = parse_description(description)
 print(format_changelog_entry(fields))
-
